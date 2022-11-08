@@ -1,0 +1,47 @@
+.contact-card{
+    position: relative;
+    top: 140px;
+    color: black;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: solid;
+    margin: auto;
+    margin-bottom: 225px;
+}
+
+.contact-title{
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+}
+
+.email{
+    font-size: 20px;
+   margin-top: 40px;
+}
+
+.phone{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+div{
+    font-family: Inria sans;
+    }
+    h1{
+    font-family: Inria sans;
+    }
+    h2{
+    font-family: Inria sans;
+    }
+    h3{
+    font-family: Inria sans;
+    }
+    button{
+    font-family: Inria sans;  
+    }

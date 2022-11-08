@@ -1,0 +1,151 @@
+.product-title{
+    position: relative;
+    width:10vw;
+    text-align: center;
+    top: 130px;
+    font-size: 30px;
+    position: relative;
+    background-color: black;
+    color: white;
+    left: 45vw;
+}
+
+.product-cards{
+    margin-top: 200px;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.engine-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    margin-left: 200px;
+    filter: brightness(50%);
+    transition: transform .2s
+}
+.engine-card:hover{
+    transform: scale(1.05);
+}
+
+.steering-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform .2s;
+}
+.steering-card:hover{
+    transform: scale(1.05);
+}
+
+.wheels-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    margin-right: 200px;
+    filter: brightness(50%);
+    transition: transform .2s;
+}
+.wheels-card:hover{
+    transform: scale(1.05);
+}
+
+.suspension-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    margin-bottom: 100px;
+    filter: brightness(50%);
+    transition: transform .2s;
+}
+.suspension-card:hover{
+    transform: scale(1.05)
+}
+
+.accessories-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform .2s;
+}
+.accessories-card:hover{
+    transform: scale(1.05)
+}
+
+.braking-card{
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform .2s;
+}
+.braking-card:hover{
+    transform: scale(1.05);
+}
+
+.engine-text{
+    position: absolute;
+font-size: 25px;
+  top: 50vh;
+  left: 26vw;
+  color: white;
+}
+.steering-text{
+    position: absolute;
+    font-size: 25px;
+      top: 50vh;
+      left: 47vw;
+      color: white;
+}
+.wheels-text{
+    position: absolute;
+    font-size: 25px;
+      top: 50vh;
+      right: 24.5vw;
+      color: white;
+}
+.suspension-text{
+    position: absolute;
+    font-size: 25px;
+      top: 95vh;
+      left: 24.5vw;
+      color: white;
+}
+.accessories-text{
+    position: absolute;
+    font-size: 25px;
+      top: 95vh;
+      left: 45.5vw;
+      color: white;
+}
+.braking-text{
+    position: absolute;
+    font-size: 25px;
+      top: 95vh;
+      right: 24vw;
+      color: white;
+}
+
+
+div{
+    font-family: Inria sans;
+    }
+    h1{
+    font-family: Inria sans;
+    }
+    h2{
+    font-family: Inria sans;
+    }
+    h3{
+    font-family: Inria sans;
+    }
+    button{
+    font-family: Inria sans;  
+    }

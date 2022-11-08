@@ -1,0 +1,91 @@
+.te-list{
+    position: absolute;
+    top: 160px;
+    right: 25vw;
+    color:  rgb(49, 151, 194);
+    max-width: 400px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.vehicles{
+    color: white;
+    z-index: 2;
+    font-size: 16px;
+}
+
+.card-backround{
+    background-color: black;
+    position: relative;
+    height: 94vh;
+    z-index: 0;
+}
+
+.te37{
+    z-index: 1;
+    position: absolute;
+    top: 100px;
+}
+
+.te37-title{
+    position: absolute;
+    color: white;
+    top: 77px;
+    right: 11.5vw;
+    z-index: 1;
+}
+
+.brembo-upcoming{
+    height: 94vh;
+    width: 600px;
+    position: absolute;
+    object-fit: cover;
+    right: 0px;
+    z-index: 1;
+}
+
+.brake-backround{
+    background-color: white;
+    position: relative;
+    height: 94vh;
+    z-index: 0;
+}
+
+.brembo-description{
+    max-width: 600px;
+    position: relative;
+    top: 120px;
+}
+
+.brembo-title{
+    position: relative;
+    top: 50px;
+    margin-left: 70px;
+}
+
+.brembo-description{
+    color: rgb(49, 151, 194);
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.brembo-list{
+    color: black;
+    font-size: 16px;
+}
+
+div{
+    font-family: Inria sans;
+    }
+    h1{
+    font-family: Inria sans;
+    }
+    h2{
+    font-family: Inria sans;
+    }
+    h3{
+    font-family: Inria sans;
+    }
+    button{
+    font-family: Inria sans;  
+    }

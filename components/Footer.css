@@ -1,0 +1,29 @@
+.footer{
+    height: 500px;
+    width: 100vw;
+    background-color:  rgb(49, 151, 194);
+    position: relative;
+    bottom: 0px;
+    z-index: 3;
+}
+
+.linkedin{
+    color: white;
+    position: relative;
+    top: 35px;
+    padding-left: 10px;
+}
+
+.github{
+    color: white;
+    position: absolute;
+    top: 35px;
+}
+
+.social-text{
+    color: white;
+    position: absolute;
+    top: -10px;
+    padding-left: 10px;
+}
+
